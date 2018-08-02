@@ -62,8 +62,9 @@ omega_ft = fftn(omega);
 %    end
 %end
 
-contourf(mean(omega,3),20);
-
+plt = contourf(mean(omega,3),20);
+colorbar()
+title('Vertically Averaged Vertical Velocity')
 
 save('omega_eqn_zero_neumann_soln');
 
