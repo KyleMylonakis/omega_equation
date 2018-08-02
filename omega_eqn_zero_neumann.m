@@ -43,8 +43,8 @@ end
 %w = gmres(@A,RHS,10,10^(-6),10,@fft_z);
 %w = gmres(@A,RHS,[],[],100,@ifft_z);
 %w = gmres(@A,RHS,[],10^(-3),(a-2)*(b-2)*(c-2),@ifft_z);
-w = gmres(@A,RHS,[],[],100);
-%w = gmres(@A,RHS,[],[],(a-2)*(b-2)*(c-2));
+%w = gmres(@A,RHS,[],[],100);
+w = gmres(@A,RHS,[],[],(a-2)*(b-2)*(c-2));
 
 %norm(RHS - ifft_z(fft_z(RHS)))
 
