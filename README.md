@@ -30,4 +30,5 @@ bottom of the box we use a zero Neumann boundary condition, while on the top we 
 
 
 ## References
-Omega Equation:
+Omega Equation: https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/96JC01144
+GMRES: https://en.wikipedia.org/wiki/Generalized_minimal_residual_method
