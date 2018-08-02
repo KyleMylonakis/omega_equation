@@ -21,6 +21,7 @@ second order elliptic pde, so we solve it iteratively by GMRES. The domain is re
 size in each axis direction.
 
 The two matlab files correspond to different boundary conditions:
+
 omega_eqn_zero_dirichlet_fft_z.m corresponds to zero Dirichlet boundary conditions on all faces of the box. This is 
 not physically resonable, and is included for testing purposes, and for comparing against the academic literature.
 
@@ -31,4 +32,5 @@ bottom of the box we use a zero Neumann boundary condition, while on the top we 
 
 ## References
 Omega Equation: https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/96JC01144
+
 GMRES: https://en.wikipedia.org/wiki/Generalized_minimal_residual_method
